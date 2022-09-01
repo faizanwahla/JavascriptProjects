@@ -1,0 +1,48 @@
+* {
+  background-color: bisque;
+  font-family: "Poppins";
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  color: deeppink;
+}
+
+.name:hover {
+  text-decoration: underline;
+  animation: normal;
+}
+.welcome {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: none;
+}
+.selectguide {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(245, 127, 192);
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background-color: deeppink;
+  scale: 1.2;
+  transition: 0.25s;
+}
